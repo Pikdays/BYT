@@ -147,5 +147,14 @@
         <option name="OTHER" value="true" />
         </context>
 </template>
+<template name="warn" value="#pragma clang diagnostic push&#10;#pragma clang diagnostic ignored&quot;xxx&quot;&#10;    &#10;#pragma clang diagnostic pop" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="OC_STATEMENT_C" value="true" />
+    <option name="OC_EXPRESSION_C" value="true" />
+    <option name="OC_STATEMENT" value="true" />
+    <option name="OC_EXPRESSION" value="true" />
+  </context>
+</template>
+
 
 */

@@ -40,7 +40,10 @@
     NSString *rComponent = [hexString substringWithRange:rRange];
     NSUInteger rVal = 0;
     NSScanner *rScanner = [NSScanner scannerWithString:rComponent];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wincompatible-pointer-types"
     [rScanner scanHexInt:&rVal];
+#pragma clang diagnostic pop
     float rRetVal = (float) rVal / 254;
 
 
@@ -48,14 +51,20 @@
     NSString *gComponent = [hexString substringWithRange:gRange];
     NSUInteger gVal = 0;
     NSScanner *gScanner = [NSScanner scannerWithString:gComponent];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wincompatible-pointer-types"
     [gScanner scanHexInt:&gVal];
+#pragma clang diagnostic pop
     float gRetVal = (float) gVal / 254;
 
     NSRange bRange = NSMakeRange(4, 2);
     NSString *bComponent = [hexString substringWithRange:bRange];
     NSUInteger bVal = 0;
     NSScanner *bScanner = [NSScanner scannerWithString:bComponent];
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wincompatible-pointer-types"
     [bScanner scanHexInt:&bVal];
+#pragma clang diagnostic pop
     float bRetVal = (float) bVal / 254;
 
     return [UIColor colorWithRed:rRetVal green:gRetVal blue:bRetVal alpha:1.0f];
