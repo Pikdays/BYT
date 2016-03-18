@@ -8,7 +8,9 @@
 
 @interface UIResponder (BYT)
 
-//- (void)networkDetection;
+#pragma mark - 网络检测
 
-//- (void)setupBuglyWithAppId:(NSString *)appId;
+//- (void)byt_networkDetection;
+
+
 @end

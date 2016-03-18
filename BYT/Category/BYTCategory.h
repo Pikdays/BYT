@@ -25,6 +25,12 @@
 #import "UIImage+BYT.h"
 #import "UIAlertView+BYT.h"
 #import "UIResponder+BYT.h"
+#import "UIDevice+BYT.h"
+#import "UIFont+BYT.h"
+#import "UINavigationBar+BYT.h"
+#import "UINavigationController+BYT.h"
+#import "UIScreen+BYT.h"
+#import "UITabBar+BYT.h"
 
 
 // Other

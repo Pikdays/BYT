@@ -13,11 +13,11 @@ static void *kUIAlertViewClickedBlock = @"UIAlertViewClickedBlockKey";
 
 @implementation UIAlertView (BYT)
 
-+ (nullable instancetype)showAlertViewWithTitle:(nullable NSString *)title
-                                message:(nullable NSString *)message
-                      cancelButtonTitle:(nullable NSString *)cancelButtonTitle
-                      otherButtonTitles:(nullable NSArray *)otherButtons
-                           clickedBlock:(nullable UIAlertViewClickedBlock)clickedBlock {
++ (nullable instancetype)byt_showAlertViewWithTitle:(NSString *)title
+                                            message:(NSString *)message
+                                  cancelButtonTitle:(NSString *)cancelButtonTitle
+                                  otherButtonTitles:(NSArray *)otherButtons
+                                       clickedBlock:(UIAlertViewClickedBlock)clickedBlock {
 
     UIAlertView *av = [[UIAlertView alloc] initWithTitle:title message:message delegate:[self self] cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil];
     for (NSString *buttonTitle in otherButtons) {

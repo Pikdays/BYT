@@ -7,6 +7,6 @@
 
 @interface NSBundle (BYT)
 
-+ (NSString *)getCurrentVersion;
++ (NSString *)byt_getCurrentVersion;
 
 @end

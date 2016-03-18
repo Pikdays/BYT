@@ -10,7 +10,7 @@
 
 #pragma mark - 获取版本号
 
-+ (NSString *)getCurrentVersion {
++ (NSString *)byt_getCurrentVersion {
     return [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"];
 }
 

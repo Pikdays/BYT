@@ -7,8 +7,10 @@
 #import <UIKit/UIKit.h>
 #import "objc/runtime.h"
 
+#define BYTStoryboard(sb, vc) [[UIStoryboard storyboardWithName:sb bundle:nil] instantiateViewControllerWithIdentifier:vc];
+
 @interface UIStoryboard (BYT)
 
-+ (UIViewController*)viewControllerFromStoryboardName:(NSString *)storyboardName className:(id)aClass;
++ (UIViewController*)byt_viewControllerFromStoryboardName:(NSString *)storyboardName className:(id)aClass;
 
 @end

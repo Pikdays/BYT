@@ -8,7 +8,7 @@
 
 @implementation UIStoryboard (BYT)
 
-+ (UIViewController *)viewControllerFromStoryboardName:(NSString *)storyboardName className:(id)aClass {
++ (UIViewController *)byt_viewControllerFromStoryboardName:(NSString *)storyboardName className:(id)aClass {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     NSString *className = nil;
 

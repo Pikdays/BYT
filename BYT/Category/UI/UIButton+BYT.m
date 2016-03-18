@@ -15,12 +15,12 @@ static char ActionTag;
 
 #pragma mark - ⊂((・猿・))⊃ UIButton+Block
 
-- (void)addAction:(ButtonBlock)block {
+- (void)byt_addAction:(ButtonBlock)block {
     objc_setAssociatedObject(self, &ActionTag, block, OBJC_ASSOCIATION_COPY_NONATOMIC);
     [self addTarget:self action:@selector(action:) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void)addAction:(ButtonBlock)block forControlEvents:(UIControlEvents)controlEvents {
+- (void)byt_addAction:(ButtonBlock)block forControlEvents:(UIControlEvents)controlEvents {
     objc_setAssociatedObject(self, &ActionTag, block, OBJC_ASSOCIATION_COPY_NONATOMIC);
     [self addTarget:self action:@selector(action:) forControlEvents:controlEvents];
 }

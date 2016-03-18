@@ -14,8 +14,8 @@ typedef void(^ButtonBlock)(UIButton *btn);
 
 #pragma mark - ⊂((・猿・))⊃ UIButton+Block
 
-- (void)addAction:(ButtonBlock)block;
+- (void)byt_addAction:(ButtonBlock)block;
 
-- (void)addAction:(ButtonBlock)block forControlEvents:(UIControlEvents)controlEvents;
+- (void)byt_addAction:(ButtonBlock)block forControlEvents:(UIControlEvents)controlEvents;
 
 @end

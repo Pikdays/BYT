@@ -15,15 +15,21 @@
 		50E147A21C9AA1DF00EB4235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E147A01C9AA1DF00EB4235 /* LaunchScreen.storyboard */; };
 		5C349178C45FBAB0D9424B4C /* NSNumber+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3490A43B874E01B11E074D /* NSNumber+BYT.m */; };
 		5C3492053DAFE69431CDC5D9 /* UIImage+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C34974097BB329AF50C2E79 /* UIImage+BYT.m */; };
+		5C3492842A0BBBB0EE61FD86 /* UINavigationController+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349C592F9ECF4C1FECC8FD /* UINavigationController+BYT.m */; };
 		5C34933A333ED1E9FE95E7B5 /* NSBundle+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349041510029F81686FB70 /* NSBundle+BYT.m */; };
 		5C349518F1812A90D55807F4 /* UIAlertView+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3496B7DFAA117C1E89D3E2 /* UIAlertView+BYT.m */; };
+		5C3495B4F75697A343242279 /* UIFont+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349C147B3315141D096E51 /* UIFont+BYT.m */; };
+		5C3495FAEEB03D4391C1CCE9 /* UIScreen+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349E32C8039D4AEB13B1EA /* UIScreen+BYT.m */; };
 		5C3496FF12D06DA7C8D83950 /* UIButton+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3498AE35596AADEA53BA4B /* UIButton+BYT.m */; };
 		5C34983B67E7A2AFCA03DFD0 /* NSUserDefaults+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349C1BA37EF9E9A05C98A0 /* NSUserDefaults+BYT.m */; };
+		5C3498D2D75F83CDADE91ED1 /* UITabBar+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349DB588ACB7298DBE41EB /* UITabBar+BYT.m */; };
+		5C3499848D60E06E870A2DF1 /* UIDevice+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3496B3E7D9F8AE61C92077 /* UIDevice+BYT.m */; };
 		5C349B765246E2C62948EF3C /* UIView+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3497C87867D431D00980E5 /* UIView+BYT.m */; };
 		5C349D1A5E4FDCED7D13458E /* UIResponder+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C349899E3BED2BC83E4B275 /* UIResponder+BYT.m */; };
 		5C349D6635E7D8E153EAE487 /* UIStoryboard+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3496069A7AF6FE4D68B47A /* UIStoryboard+BYT.m */; };
 		5C349E8E6716937C512CB1A3 /* UIColor+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C34952EE5C62C7FB5BE23AD /* UIColor+BYT.m */; };
 		5C349F174E556FEFF2BE913E /* NSString+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3493DA81965CAF97962974 /* NSString+BYT.m */; };
+		5C349FF717DC14E80852A16C /* UINavigationBar+BYT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3492908F81C39413F8A9AD /* UINavigationBar+BYT.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,30 +44,42 @@
 		50E147A11C9AA1DF00EB4235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50E147A31C9AA1DF00EB4235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C349041510029F81686FB70 /* NSBundle+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+BYT.m"; sourceTree = "<group>"; };
+		5C34909450F0C8DF610A16AC /* UIScreen+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+BYT.h"; sourceTree = "<group>"; };
 		5C3490A43B874E01B11E074D /* NSNumber+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BYT.m"; sourceTree = "<group>"; };
 		5C349251B13C429AC593A09A /* UIButton+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BYT.h"; sourceTree = "<group>"; };
+		5C3492908F81C39413F8A9AD /* UINavigationBar+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BYT.m"; sourceTree = "<group>"; };
 		5C3492F6B0CC2B3AE31CABE8 /* UIStoryboard+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+BYT.h"; sourceTree = "<group>"; };
 		5C34933BC4EBCF0EB6B2E9BD /* UIImage+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BYT.h"; sourceTree = "<group>"; };
+		5C3493A8652BBA4D74466D56 /* UINavigationBar+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BYT.h"; sourceTree = "<group>"; };
 		5C3493D4D76DE89CB02B0C84 /* UIColor+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BYT.h"; sourceTree = "<group>"; };
 		5C3493DA81965CAF97962974 /* NSString+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BYT.m"; sourceTree = "<group>"; };
+		5C34948296898CB0781B696E /* UIDevice+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+BYT.h"; sourceTree = "<group>"; };
+		5C3494DD10DB90BEBAFEAA40 /* UIFont+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BYT.h"; sourceTree = "<group>"; };
 		5C34952EE5C62C7FB5BE23AD /* UIColor+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BYT.m"; sourceTree = "<group>"; };
 		5C3496069A7AF6FE4D68B47A /* UIStoryboard+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+BYT.m"; sourceTree = "<group>"; };
+		5C3496B3E7D9F8AE61C92077 /* UIDevice+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+BYT.m"; sourceTree = "<group>"; };
 		5C3496B7DFAA117C1E89D3E2 /* UIAlertView+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BYT.m"; sourceTree = "<group>"; };
 		5C3496D343791CDA23B167ED /* NSUserDefaults+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+BYT.h"; sourceTree = "<group>"; };
 		5C34974097BB329AF50C2E79 /* UIImage+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BYT.m"; sourceTree = "<group>"; };
 		5C3497C87867D431D00980E5 /* UIView+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYT.m"; sourceTree = "<group>"; };
 		5C349899E3BED2BC83E4B275 /* UIResponder+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+BYT.m"; sourceTree = "<group>"; };
 		5C3498AE35596AADEA53BA4B /* UIButton+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BYT.m"; sourceTree = "<group>"; };
+		5C34991D523FA392DFB65E71 /* UINavigationController+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BYT.h"; sourceTree = "<group>"; };
 		5C34998F13D988BC9D91FB9E /* UIView+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BYT.h"; sourceTree = "<group>"; };
 		5C3499FE2AD0668E5EBFB9A5 /* UIAlertView+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BYT.h"; sourceTree = "<group>"; };
 		5C349A5C54EF4E19EAA6C80C /* NSNumber+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BYT.h"; sourceTree = "<group>"; };
 		5C349A628C360683BA540FD3 /* BYTSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTSingleton.h; sourceTree = "<group>"; };
 		5C349A8A59FDC45F961E265D /* BYTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTHeader.h; sourceTree = "<group>"; };
+		5C349C147B3315141D096E51 /* UIFont+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BYT.m"; sourceTree = "<group>"; };
 		5C349C1BA37EF9E9A05C98A0 /* NSUserDefaults+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+BYT.m"; sourceTree = "<group>"; };
+		5C349C592F9ECF4C1FECC8FD /* UINavigationController+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BYT.m"; sourceTree = "<group>"; };
 		5C349D85535C9CC993EE71CB /* NSBundle+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+BYT.h"; sourceTree = "<group>"; };
+		5C349DB588ACB7298DBE41EB /* UITabBar+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+BYT.m"; sourceTree = "<group>"; };
 		5C349DCC9448C6CA82499658 /* BYTBlockMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTBlockMacro.h; sourceTree = "<group>"; };
 		5C349E001E049C434C18508D /* NSString+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BYT.h"; sourceTree = "<group>"; };
+		5C349E32C8039D4AEB13B1EA /* UIScreen+BYT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+BYT.m"; sourceTree = "<group>"; };
 		5C349F5753BC408FB314ADD6 /* UIResponder+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+BYT.h"; sourceTree = "<group>"; };
+		5C349FF4B387EC5687FB46F3 /* UITabBar+BYT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+BYT.h"; sourceTree = "<group>"; };
 		5C349FFBB64A4F6742D6A1AF /* BYTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,6 +187,18 @@
 				5C349899E3BED2BC83E4B275 /* UIResponder+BYT.m */,
 				5C3492F6B0CC2B3AE31CABE8 /* UIStoryboard+BYT.h */,
 				5C3496069A7AF6FE4D68B47A /* UIStoryboard+BYT.m */,
+				5C34948296898CB0781B696E /* UIDevice+BYT.h */,
+				5C3496B3E7D9F8AE61C92077 /* UIDevice+BYT.m */,
+				5C3494DD10DB90BEBAFEAA40 /* UIFont+BYT.h */,
+				5C349C147B3315141D096E51 /* UIFont+BYT.m */,
+				5C3493A8652BBA4D74466D56 /* UINavigationBar+BYT.h */,
+				5C3492908F81C39413F8A9AD /* UINavigationBar+BYT.m */,
+				5C34991D523FA392DFB65E71 /* UINavigationController+BYT.h */,
+				5C349C592F9ECF4C1FECC8FD /* UINavigationController+BYT.m */,
+				5C34909450F0C8DF610A16AC /* UIScreen+BYT.h */,
+				5C349E32C8039D4AEB13B1EA /* UIScreen+BYT.m */,
+				5C349FF4B387EC5687FB46F3 /* UITabBar+BYT.h */,
+				5C349DB588ACB7298DBE41EB /* UITabBar+BYT.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -266,6 +296,12 @@
 				5C349518F1812A90D55807F4 /* UIAlertView+BYT.m in Sources */,
 				5C349D1A5E4FDCED7D13458E /* UIResponder+BYT.m in Sources */,
 				5C349D6635E7D8E153EAE487 /* UIStoryboard+BYT.m in Sources */,
+				5C3499848D60E06E870A2DF1 /* UIDevice+BYT.m in Sources */,
+				5C3495B4F75697A343242279 /* UIFont+BYT.m in Sources */,
+				5C349FF717DC14E80852A16C /* UINavigationBar+BYT.m in Sources */,
+				5C3492842A0BBBB0EE61FD86 /* UINavigationController+BYT.m in Sources */,
+				5C3495FAEEB03D4391C1CCE9 /* UIScreen+BYT.m in Sources */,
+				5C3498D2D75F83CDADE91ED1 /* UITabBar+BYT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

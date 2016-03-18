@@ -10,14 +10,14 @@
 
 @interface UIView (BYT)
 
-- (void)setCornerRadius:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor *)color;
+- (void)byt_setCornerRadius:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor *)color;
 
-- (void)setCornerRadius:(CGFloat)radius roundingCorners:(UIRectCorner)corners borderWidth:(CGFloat)width borderColor:(UIColor *)color;
+- (void)byt_setCornerRadius:(CGFloat)radius roundingCorners:(UIRectCorner)corners borderWidth:(CGFloat)width borderColor:(UIColor *)color;
 
-- (void)setCornerRadiusOnTop:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor *)color;
+- (void)byt_setCornerRadiusOnTop:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor *)color;
 
-- (void)setCornerRadiusOnBottom:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor *)color;
+- (void)byt_setCornerRadiusOnBottom:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor *)color;
 
-- (void)setCorneRequalNone;
+- (void)byt_setCorneRequalNone;
 
 @end

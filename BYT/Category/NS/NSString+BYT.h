@@ -12,12 +12,12 @@
 @interface NSString (BYT)
 
 // 计算文本高度
-- (float) heightWithFont:(UIFont *) font maxSize:(CGSize) maxSize andLinebreakMode:(NSLineBreakMode) linebreakMode;
+- (float)byt_heightWithFont:(UIFont *)font maxSize:(CGSize)maxSize andLinebreakMode:(NSLineBreakMode)linebreakMode;
 
 // 移除最后一个字符
-- (NSString *)removeLastChar;
+- (NSString *)byt_removeLastChar;
 
 // 正则判断是否满足手机号码格式
-+ (BOOL)checkTelNumber:(NSString *)telNumber;
++ (BOOL)byt_checkTelNumber:(NSString *)telNumber;
 
 @end
