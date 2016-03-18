@@ -4,8 +4,6 @@
 //
 
 #import "UIResponder+BYT.h"
-//#import "AFNetworkActivityIndicatorManager.h"
-//#import "AFNetworkReachabilityManager.h"
 #import "UIAlertView+BYT.h"
 
 
@@ -13,21 +11,21 @@
 
 #pragma mark - 网络检测
 
-//- (void)byt_networkDetection {
-//    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
-//    AFNetworkReachabilityManager *reachabilityManager = [AFNetworkReachabilityManager sharedManager];
-//    [reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-//        if (status == AFNetworkReachabilityStatusNotReachable) {
-//            // 网络无连接的提示
-//            [UIAlertView byt_showAlertViewWithTitle:@""
-//                                            message:@"当前没有网络，请检查网络连接"
-//                                  cancelButtonTitle:nil
-//                                  otherButtonTitles:@[@"确定"]
-//                                       clickedBlock:nil];
-//        }
-//    }];
-//    [reachabilityManager startMonitoring];
-//}
+- (void)byt_networkDetection {
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    AFNetworkReachabilityManager *reachabilityManager = [AFNetworkReachabilityManager sharedManager];
+    [reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        if (status == AFNetworkReachabilityStatusNotReachable) {
+            // 网络无连接的提示
+            [UIAlertView byt_showAlertViewWithTitle:@""
+                                            message:@"当前没有网络，请检查网络连接"
+                                  cancelButtonTitle:nil
+                                  otherButtonTitles:@[@"确定"]
+                                       clickedBlock:nil];
+        }
+    }];
+    [reachabilityManager startMonitoring];
+}
 
 
 

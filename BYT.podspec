@@ -91,9 +91,10 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "BYT/**/*.{h,m}"
+  s.source_files  = "BYT/PodHeader.h"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "BYT/**/*.h"
+  s.public_header_files = "BYT/BYTHeader.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
