@@ -2,11 +2,11 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/BYTDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYTDemo/ViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYTDemo/AppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYTDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYTDemo/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYTDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYTDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYTDemo/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYTDemo/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYTDemo/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
@@ -22,31 +22,31 @@
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/NS/NSNumber+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/NS/NSBundle+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIImage+BYT.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIView+BYT.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIImage+BYT.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UINavigationController+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIColor+BYT.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UINavigationBar+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UITabBar+BYT.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIResponder+BYT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIDevice+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UINavigationBar+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIFont+BYT.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIAlertView+BYT.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIDevice+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UITabBar+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIDevice+BYT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIView+BYT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UINavigationBar+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIScreen+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIAlertView+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIStoryboard+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIResponder+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIButton+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIScreen+BYT.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIView+BYT.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIAlertView+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIStoryboard+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIFont+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIButton+BYT.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIImage+BYT.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UINavigationController+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIColor+BYT.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UINavigationController+BYT.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIView+BYT.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BYT/Category/UI/UIResponder+BYT.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/Category/BYTCategory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BYT/BYTHeader.h" isTestSource="false" />
     </content>
