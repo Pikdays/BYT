@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af7f088-96c8-4d0d-9791-d2d399d6db96" name="Default" comment="">
+    <list default="true" id="9af7f088-96c8-4d0d-9791-d2d399d6db96" name="Default" comment="Add PodHeader">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BYT.podspec" afterPath="$PROJECT_DIR$/BYT.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.h" afterPath="$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.m" afterPath="$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.m" />
     </list>
     <ignored path="BYT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIResponder+BYT.m" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UIResponder+BYT.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
                 <element signature="e#92#119#0" expanded="true" />
               </folding>
@@ -96,6 +94,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BYT.podspec" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BYT.podspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -155,12 +163,12 @@
         <option value="$PROJECT_DIR$/BYT/Category/UI/UIView+BYT.m" />
         <option value="$PROJECT_DIR$/BYT/Category/BYTCategory.h" />
         <option value="$PROJECT_DIR$/BYT/Category/UI/UIAlertView+BYT.h" />
-        <option value="$PROJECT_DIR$/BYT.podspec" />
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/BYT/BYTHeader.h" />
         <option value="$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.m" />
         <option value="$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.h" />
         <option value="$PROJECT_DIR$/BYT/PodHeader.h" />
+        <option value="$PROJECT_DIR$/BYT.podspec" />
       </list>
     </option>
   </component>
@@ -530,7 +538,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458280993027</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add PodHeader">
+      <created>1458281592994</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1458281592994</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -825,14 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BYT.podspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BYT/Category/BYTCategory.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -981,11 +987,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BYT/Category/UI/UIResponder+BYT.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="375">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
           <folding>
             <element signature="e#92#119#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BYT.podspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
