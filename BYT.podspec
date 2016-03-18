@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BYT"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A sample iOS Framework"
 
   # This description is used to generate tags and improve search results.
@@ -133,5 +133,25 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-    s.dependency = 'AFNetworking', '~> 3.0.4',
+    # Net
+      s.dependency 'AFNetworking', '~> 3.0.4'
+      s.dependency 'SDWebImage', '~> 3.7.3'
+
+
+    # View
+      s.dependency 'MJRefresh'
+
+
+    # Model
+      s.dependency 'MJExtension', '~> 3.0.8'
+      s.dependency 'Base64', '~> 1.0.1'
+
+
+    # 效率
+      s.dependency 'Masonry', '~> 0.6.2'
+      s.dependency 'ReactiveCocoa', '~> 2.5'
+      s.dependency 'LinqToObjectiveC', '~> 2.0.0'
+      s.dependency 'pop', '~> 1.0.8'
+      s.dependency 'WebViewJavascriptBridge'
+
 end
