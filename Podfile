@@ -19,7 +19,7 @@ target "BYTDemo" do
   pod 'Base64', '~> 1.0.1'
 
 
-# 效率
+# Efficiency
   pod 'Masonry', '~> 0.6.2'
   pod 'ReactiveCocoa', '~> 2.5'
   pod 'LinqToObjectiveC', '~> 2.0.0'
