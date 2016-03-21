@@ -13,6 +13,9 @@ target "BYTDemo" do
 # View
   pod 'MJRefresh'
 
+  pod 'JazzHands', '~> 2.0.8'           #引导页
+  pod 'EAIntroView', '~> 2.8.1'         #引导页
+
 
 # Model
   pod 'MJExtension', '~> 3.0.8'

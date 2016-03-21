@@ -8,7 +8,6 @@
 
 #import "NSUserDefaults+BYT.h"
 
-
 @implementation NSUserDefaults (BYT)
 
 @end

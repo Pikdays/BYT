@@ -10,17 +10,13 @@
 #define BYTHeader_h
 
 
-#import "PodHeader.h"
-
 
 #import "BYTCategory.h"
+#import "PodHeader.h"
 
 
 
 #endif /* BYTHeader_h */
-
-
-
 
 
 

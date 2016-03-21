@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BYTHeader.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // 设置网络
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+
+
+    // 设置样式 (例:StatusBar, 导航条)
+
+
     return YES;
 }
 

@@ -5,14 +5,15 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "PodHeader.h"
+//#import "AFNetworking.h"
+//#import "AFNetworkActivityIndicatorManager.h"
 
 
 @interface UIResponder (BYT)
 
 #pragma mark - 网络检测
 
-- (void)byt_networkDetection;
+//- (void)byt_networkDetection;
 
 
 @end

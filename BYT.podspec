@@ -91,7 +91,6 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "BYT/**/*.{h,m}"
-  s.source_files  = "BYT/PodHeader.h"
   # s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "BYT/BYTHeader.h"
@@ -118,7 +117,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -135,24 +134,24 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
     # Net
-      s.dependency 'AFNetworking', '~> 3.0.4'
-      s.dependency 'SDWebImage', '~> 3.7.3'
+      #s.dependency 'AFNetworking', '~> 3.0.4'
+      #s.dependency 'SDWebImage', '~> 3.7.3'
 
 
     # View
-      s.dependency 'MJRefresh'
+      #s.dependency 'MJRefresh'
 
 
     # Model
-      s.dependency 'MJExtension', '~> 3.0.8'
-      s.dependency 'Base64', '~> 1.0.1'
+      #s.dependency 'MJExtension', '~> 3.0.8'
+      #s.dependency 'Base64', '~> 1.0.1'
 
 
     # 效率
-      s.dependency 'Masonry', '~> 0.6.2'
-      s.dependency 'ReactiveCocoa', '~> 2.5'
-      s.dependency 'LinqToObjectiveC', '~> 2.0.0'
-      s.dependency 'pop', '~> 1.0.8'
-      s.dependency 'WebViewJavascriptBridge'
+      #s.dependency 'Masonry', '~> 0.6.2'
+      #s.dependency 'ReactiveCocoa', '~> 2.5'
+      #s.dependency 'LinqToObjectiveC', '~> 2.0.0'
+      #s.dependency 'pop', '~> 1.0.8'
+     # s.dependency 'WebViewJavascriptBridge'
 
 end
